@@ -29,3 +29,7 @@ button:active {
   background-color: rgb(101, 7, 138);
   color: white;
 }
+
+img{
+  width: 10rem;
+}
