@@ -1,1 +1,14 @@
-[{"title":"book"},{"title":"book"},{"title":"book"},{"title":"book"},{"title":"ji"}]
+[
+  {
+    "title": "A Book",
+    "imageUrl": "https://www.collinsdictionary.com/images/full/book_181404689_1000.jpg",
+    "price": "19",
+    "description": "A very amazing book!"
+  },
+  {
+    "title": "Martin Eden",
+    "imageUrl": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781627938914/martin-eden-9781627938914_hr.jpg",
+    "price": "10",
+    "description": "A book by Jack London!"
+  }
+]

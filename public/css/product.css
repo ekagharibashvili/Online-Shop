@@ -1,3 +1,16 @@
+.grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card {
+  border: 0.2rem solid rgb(41, 50, 41);
+  padding: 0.2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .product-form {
   width: 30rem;
   max-width: 90%;
@@ -7,16 +20,23 @@
   margin: 1rem 0;
 }
 .form-control label,
-.form-control input {
+.form-control input,
+.form-control textarea {
   display: block;
   width: 100%;
+  margin-bottom: 0.25rem;
 }
-.form-control input {
+.form-control input,
+.form-control textarea {
   border: 1px solid rgb(197, 154, 24);
   font: inherit;
   border-radius: 2px;
 }
-button {
+.form-control input:focus,
+.form-control textarea:focus {
+  outline-color: #00695c;
+}
+.btn {
   font: inherit;
   border: 1px solid rgb(101, 7, 138);
   color: rgb(101, 7, 138);
@@ -24,12 +44,16 @@ button {
   border-radius: 3px;
   cursor: pointer;
 }
-button:hover,
-button:active {
+.btn:hover,
+.btn:active {
   background-color: rgb(101, 7, 138);
   color: white;
 }
 
-img{
+img {
   width: 10rem;
+}
+
+a {
+  text-decoration: none;
 }
